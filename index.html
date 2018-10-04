@@ -1,0 +1,43 @@
+<html><head><center><h2>
+README</h2></center>
+for the model associated with:
+<p/>
+
+Bazhenov M, Timofeev I, Steriade M, Sejnowski TJ (2002) <br/>
+Model of thalamocortical slow-wave sleep oscillations and transitions to activated states.  <br/>
+J Neurosci <b>22</b>:8691-704 <br/><br/>
+
+</head><body>
+<b>
+This model is written in C++. </b> The following instructions work have worked under redhat linux 9 although
+the code should work with little or no modification on other platforms with ansi compilers.<p/>
+<h4>How to compile:</h4>
+Change to the directory in which you have unziped the archieve file, then type:
+<pre>
+g++ neur271.c rk.c -lm -O4 -ffast-math -o neur271
+</pre>
+<h4>
+How to run:</h4>
+./neur271 input27 > tmp &
+<pre>
+</pre>
+
+The run (~7.5 hours on a 800 MHz xeon redhat linux pc) creates data files
+equivalent to figure 6 in the paper, e.g. one can find in the time_cx file
+25 seconds of 100 pyramidal cell's activity:
+<br><br><center>
+<img src="./PYactivity0to25secs.jpg" height="200" width="400">
+</center>
+
+<br/>
+Correspondence:
+<br/>
+Dr. Maxim Bazhenov, The Salk Institute,
+<br/>
+10010 North Torrey Pines Road, La Jolla, CA 92037.
+<br/>
+E-mail:
+<A href="mailto:bazhenov@salk.edu?Subject=thalamocortical 2002 model">
+bazhenov@salk.edu
+</A>
+</body></html>
