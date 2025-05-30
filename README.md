@@ -24,10 +24,8 @@ g++ neur271.c rk.c -lm -O4 -ffast-math -o neur271
 
 The run (~7.5 hours on an 800 MHz Xeon Red Hat Linux PC) creates data files equivalent to figure 6 in the paper, e.g. one can find in the time_cx file 25 seconds of 100 pyramidal cell's activity:
 
-<center>
-![Pyramidal cell activity from 0 to 25 seconds](./PYactivity0to25secs.jpg)
-</center>
 
+![Pyramidal cell activity from 0 to 25 seconds](./PYactivity0to25secs.jpg)
 Correspondence:
 Dr. Maxim Bazhenov, The Salk Institute,
 10010 North Torrey Pines Road, La Jolla, CA 92037.
